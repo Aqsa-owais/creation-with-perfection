@@ -298,3 +298,10 @@
   .login-form p a:hover {
     background-color: white;
   }
+
+
+  /* feature css start */
+
+  h1{
+    font-size: 20px;
+  }
