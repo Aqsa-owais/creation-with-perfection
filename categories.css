@@ -40,6 +40,17 @@
     background: #ffffff;
     box-shadow: var(--box-shadow);
   }
+  .fake_header {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    box-shadow: var(--box-shadow);
+  }
   .logo {
     gap: 50px;
     display: flex;
