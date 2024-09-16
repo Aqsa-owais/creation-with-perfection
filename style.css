@@ -1,7 +1,7 @@
 :root {
   --purle: #700a5a;
-  --orange: #ff7800;
-  --black: #130f40;
+  --orange:  #ae118c;
+  --black: #f5f4f9;
   --light-color: #666;
   --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
   --border: 2rem solid rgba(0, 0, 0, 0.1);
@@ -26,10 +26,21 @@ html {
   scroll-padding-top: 7rem;
 }
 body {
-  background-color: rgb(248, 63, 183);
+  background-color: rgb(131, 89, 137);
 }
 .header {
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  box-shadow: var(--box-shadow);
+}
+.fake_header {
   top: 0;
   left: 0;
   right: 0;
@@ -580,7 +591,7 @@ p {
 }
 a:hover {
   background: var(--orange);
-  color: #2ca52c;
+  color: #ae118c;
 }
 
 .credits {
